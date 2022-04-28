@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.square {
+  width: 7rem;
+  height: 7rem;
+  border: 1px solid black;
+}
