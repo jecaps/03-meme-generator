@@ -9,7 +9,9 @@ export default function App(props) {
   };
 
   const squareEl = squares.map((square) => (
-    <div key={square.id} className="box" styles={styles}></div>
+    <div key={square.id} className="box" style={styles}>
+      {square.id}
+    </div>
   ));
 
   return <main>{squareEl}</main>;
