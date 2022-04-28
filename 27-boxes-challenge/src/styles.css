@@ -8,8 +8,9 @@ main {
   grid-gap: 1rem;
 }
 
-.square {
+.box {
   width: 7rem;
   height: 7rem;
   border: 1px solid black;
+  border-radius: 5px;
 }
