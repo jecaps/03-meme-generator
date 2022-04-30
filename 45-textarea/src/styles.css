@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+}
+
+[value] {
+  display: block;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
