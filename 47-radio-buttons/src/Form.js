@@ -7,6 +7,7 @@ export default function Form() {
     email: "",
     comments: "",
     isFriendly: false,
+    employment: "",
   });
 
   // console.log(formData);
